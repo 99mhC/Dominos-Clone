@@ -1,0 +1,310 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    background-color: rgb(57, 57, 216);
+    width: 100%;
+    height: 80px;
+    align-items: center;
+}
+.header img{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 200px;
+   
+}
+.header ul{
+    margin-left: 20px;
+    text-decoration: none;
+    display: block;
+    display: inline;
+    list-style: none;
+}
+.header ul li{
+   display: inline-block;
+   list-style: none;
+   color: white;
+   font-family: sans-serif;
+   margin-left: 10px;
+ 
+}
+.downlord{
+    text-decoration: none;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.order{
+    text-decoration: none;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px; 
+    font-weight: bold;
+    border-radius: 5px;
+}
+.home{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.home ul{
+    text-decoration: none;
+    display: block;
+    display: inline;
+    list-style: none;
+}
+.home ul li{
+    display: inline-block;
+    list-style: none;
+    color: blue;
+    font-family: sans-serif;
+
+}
+.have{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.have1{
+    border: 1px solid black;
+    width: 300px;
+    height: 260px;
+    border-top: white;
+    text-align: center;
+    padding: 10px;
+}
+.have1 p{
+    width: 290px;
+    font-family: sans-serif;
+}
+.have1 h1{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    border-radius:5px;
+    background-color: rgb(12, 12, 116);
+}
+.have2{
+    font-family: sans-serif;
+}
+.have2 p{
+    font-family: sans-serif;
+}
+.facbook{
+    background-image: linear-gradient(rgba(152, 66, 233, 0.7),rgba(152, 66, 233, 0.7)),url(./image/images.jfif);
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.fb{
+    margin-top: 20px;
+}
+.fb img{
+    width: 100px;
+}
+.fb p{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.gplus{
+    margin-top:20px;
+}
+.gplus img{
+    width: 100px;
+}
+.gplus P{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+} 
+
+.instagram{
+    margin-top:20px;  
+}
+.instagram img{
+    width: 100px;
+}
+.instagram p{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.twitter{
+    margin-top:20px;   
+}
+.twitter img{
+ width: 100px;
+}
+.twitter p{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.ask{
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+.ask h1{
+    font-family: sans-serif;
+    color: blue;
+}
+.how{
+    margin-left: 20px;
+}
+.how p{
+    margin-left: 30px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.footer{
+    margin-top: 50px;
+    background-image:linear-gradient(rgba(69, 22, 196, 0.6),rgba(69, 22, 196, 0.6)), url(./image/wp6905611.webp);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.footermenu{
+    margin-top: 50px;
+ 
+}
+.footermenu h1{
+    font-family: sans-serif;
+    color: white;
+}
+.footermenu ul{
+    text-decoration: none;
+    display: block;
+    display: inline;
+    list-style: none;
+}
+.footermenu ul li{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+.footermenu1{
+    margin-top: 50px;
+}
+.footermenu1 h1{
+    font-family: sans-serif;
+    color: white;  
+}
+.footermenu1 ul{
+    text-decoration: none;
+    display: block;
+    display: inline;
+    list-style: none;
+}
+.footermenu1 ul li{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+.footermenu2{
+    margin-top: 50px; 
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    display:inline;
+    color: white;
+}
+.footermenu2 a{
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    color: white; 
+    font-family: sans-serif;
+}
+.footermenu2 h1{
+    font-family: sans-serif;
+    color: white; 
+}
+
+.footermenu3{
+    margin-top: 50px; 
+}
+.footermenu3 h1{
+    font-family: sans-serif;
+    color: white; 
+} 
+.footermenu3 ul{
+    text-decoration: none;
+    display: block;
+    display: inline;
+    list-style: none; 
+}
+.footermenu3 ul li{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    line-height: 30px; 
+}
+
+.footermenu4{
+    margin-top: 50px; 
+}
+.footermenu4 h1{
+    font-family: sans-serif;
+    color: white; 
+}  
+.footermenu4 ul{
+    text-decoration: none;
+    display: block;
+    display: inline;
+    list-style: none; 
+} 
+.footermenu4 ul li{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    line-height: 30px;  
+}
+.footermenu5{
+    margin-top: 50px; 
+}
+.footermenu5 h1{
+    font-family: sans-serif;
+    color: white;  
+}
+.avneesh{
+    background-color: blueviolet;
+}
+.avneesh h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
